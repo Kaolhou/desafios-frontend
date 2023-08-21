@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+div#root {
+  @apply min-h-screen;
+}
+#search {
+  background-image: url("/search.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 20px;
+}
+.container {
+  @apply max-w-6xl mx-auto  ssm:w-[90%];
+}
